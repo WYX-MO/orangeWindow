@@ -1,0 +1,29 @@
+{
+	"nodes":[
+		{"id":"422679c1865073ac","type":"text","text":"得到文字","x":-125,"y":-30,"width":250,"height":60},
+		{"id":"8e4b3a35362d0dd9","type":"text","text":"ai翻译（结合漫画和语境)","x":80,"y":190,"width":250,"height":60},
+		{"id":"ab177fbb1babb495","type":"text","text":"记录大体情节","x":80,"y":280,"width":250,"height":60},
+		{"id":"83fa55e27ab41998","type":"text","text":"opencv处理","x":-309,"y":-264,"width":250,"height":60},
+		{"id":"bdd207df4fc8838b","type":"text","text":"离线模型翻译","x":-375,"y":80,"width":250,"height":60},
+		{"id":"680399a31166fd82","type":"text","text":"额外功能","x":-125,"y":360,"width":250,"height":60},
+		{"id":"caafac154af3713c","type":"text","text":"记录跟随位置,利用特征","x":-375,"y":520,"width":250,"height":60},
+		{"id":"b1f6c3671c12e082","type":"text","text":"透明方便外观","x":-125,"y":520,"width":250,"height":60},
+		{"id":"8f7a6549e3bb3316","type":"text","text":"music ...","x":125,"y":520,"width":250,"height":60},
+		{"id":"feec9edc930e483b","type":"text","text":"竖直文本","x":40,"y":-204,"width":250,"height":60},
+		{"id":"be8116c6c4b187f3","x":-210,"y":760,"width":250,"height":60,"type":"text","text":"figma破解版转python\n"},
+		{"id":"e9016ea093ba6e39","type":"text","text":"翻译软件api翻译","x":-335,"y":190,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"54fe975bf5f4851b","fromNode":"422679c1865073ac","fromSide":"bottom","toNode":"bdd207df4fc8838b","toSide":"top"},
+		{"id":"f5cbe3d202d680a1","fromNode":"422679c1865073ac","fromSide":"bottom","toNode":"e9016ea093ba6e39","toSide":"top"},
+		{"id":"6458505d9708b142","fromNode":"422679c1865073ac","fromSide":"bottom","toNode":"8e4b3a35362d0dd9","toSide":"top"},
+		{"id":"3b1f55aad3cd7d14","fromNode":"8e4b3a35362d0dd9","fromSide":"bottom","toNode":"ab177fbb1babb495","toSide":"top"},
+		{"id":"35588ad5d524e1b7","fromNode":"422679c1865073ac","fromSide":"top","toNode":"83fa55e27ab41998","toSide":"bottom"},
+		{"id":"6a1628bb4e6d3658","fromNode":"422679c1865073ac","fromSide":"bottom","toNode":"680399a31166fd82","toSide":"top"},
+		{"id":"5cb49943c8328ede","fromNode":"680399a31166fd82","fromSide":"bottom","toNode":"caafac154af3713c","toSide":"top"},
+		{"id":"1e36e2b3c6be6586","fromNode":"680399a31166fd82","fromSide":"bottom","toNode":"b1f6c3671c12e082","toSide":"top"},
+		{"id":"a455279f39429f65","fromNode":"680399a31166fd82","fromSide":"bottom","toNode":"8f7a6549e3bb3316","toSide":"top"},
+		{"id":"468131a915468eea","fromNode":"83fa55e27ab41998","fromSide":"bottom","toNode":"feec9edc930e483b","toSide":"top"},
+		{"id":"eb123d685b5021a9","fromNode":"b1f6c3671c12e082","fromSide":"bottom","toNode":"be8116c6c4b187f3","toSide":"top"}
+	]
+}
